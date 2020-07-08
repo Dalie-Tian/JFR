@@ -1,0 +1,17 @@
+/* css reset */
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;font-size: 12px;color: none;}
+img{display: block;}
+h1,h2,h3,h4{text-decoration: none;}
+body{
+    overflow-x: hidden;
+}
+
+/* css common */
+.l{float: left;}
+.r{float: right;}
+.clear:after{content: "";display: block;clear: both;}
+.container{width: 1200px;margin: 0 auto;position: relative;}
+.container-fluid{width: 100%;margin: 0 auto;position: relative;}
+

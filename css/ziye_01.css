@@ -1,0 +1,161 @@
+/* 拍摄地-子页 */
+#psjd_ziye{
+    width: 1200px;
+    height: 790px;
+    position: relative;
+}
+#psjd_ziye .psjd_nav{
+    width: 1200px;
+    height: 29px;
+    position: relative;
+    left: 5px;
+    border-bottom:1px solid #666666 ;
+    overflow: hidden;
+}
+#psjd_ziye .psjd_nav p{
+    line-height: 29px;
+    font-size: 12px;
+    color: #656565;
+    float: right;
+    cursor: pointer;
+}
+#psjd_ziye .psjd_liebiao{
+    margin-left: 5px;
+    border-left:1px solid #666666;
+    cursor: pointer;
+}
+#psjd_ziye .psjd_liebiao div:nth-of-type(1){
+    width: 125px;
+    height: 35px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 35px;
+    color: #343434;
+    border: 1px solid #666666;
+    border-top: 0px;
+    border-left: 0px;
+}
+#psjd_ziye .psjd_liebiao div:nth-of-type(2){
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #333333;
+}
+#psjd_ziye .psjd_liebiao div:nth-of-type(3){
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #333333;
+}
+#psjd_ziye .psjd_liebiao div:nth-of-type(4){
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #333333;
+}
+#psjd_ziye .psjd_liebiao div:nth-of-type(5){
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    color: #333333;
+}
+
+/* 卢森堡 */
+#psjd_ziye .show_cantent{
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    width: 942px;
+    height: 730px;
+}
+#psjd_ziye .show_cantent .lsbcl_logo{
+    position: absolute;
+    top: 18px;
+    right: 235px;
+    z-index: 2;
+}
+#psjd_ziye .show_cantent .lsbcl_tu{
+    position: absolute;
+    top: 37px;
+    left: 28px;
+    background: #666666;
+    z-index: 2;
+}
+#psjd_ziye .show_cantent .lsbcl_tu img{
+    position: relative;
+    top:-37px;
+    left: -28px;
+}
+#psjd_ziye .show_cantent .lsbcl_text{
+    position: absolute;
+    width: 838px;
+    height: 362px;
+    border: 1px solid #666666;
+    top:64px;
+    right: 0px;
+    overflow: hidden;
+}
+#psjd_ziye .show_cantent .lsbcl_text p{
+    width: 632px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #666666;
+    margin: 20px 14px 0 0;
+    float: right;
+    text-align: justify;
+}
+#psjd_ziye .show_cantent .lsbcl_text p:first-of-type{
+    margin-top: 40px;
+}
+
+
+#psjd_ziye .show_cantent .lsb_lb{
+    width: 942px;
+    height: 183px;
+    position: absolute;
+    right: 0px;
+    bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+#psjd_ziye .show_cantent .lsb_lb img{
+    width: 285px;
+    height: 181px;
+}
+#psjd_ziye .show_cantent .lsb_lb img:first-of-type{
+    width: 15px;
+    height: 46px;
+    margin-top: 77px;
+}
+#psjd_ziye .show_cantent .lsb_lb img:last-of-type{
+    width: 15px;
+    height: 46px;
+    margin-top: 77px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

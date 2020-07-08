@@ -1,0 +1,556 @@
+/* nav 导航条 *************************************/
+#index_nav {
+    width: 1200px;
+    height: 117px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#index_nav .nav_logo {
+    width: 155px;
+    height: 117px;
+}
+
+#index_nav .nav_logo img {
+    width: 155px;
+    height: 117px;
+}
+
+#index_nav .nav_content {
+    width: 736px;
+    height: 117px;
+}
+
+#index_nav .nav_content .dlzc {
+    width: 100%;
+    height: 25px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#index_nav .nav_content .dlzc p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+    cursor: pointer;
+}
+
+#index_nav .nav_content .dlzc input {
+    width: 222px;
+    height: 25px;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    color: #989898;
+    margin-right: 36px;
+}
+
+#index_nav .nav_content .nav_center {
+    width: 100%;
+    height: 74px;
+    position: relative;
+}
+
+#index_nav .nav_content .nav_center ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#index_nav .nav_content .nav_center ul li {
+    font-size: 18px;
+    line-height: 74px;
+    color: #333333;
+    cursor: pointer;
+}
+
+#index_nav .nav_content .nav_center .nav_tiao {
+    width: 80px;
+    height: 4px;
+    border-radius: 6px;
+    position: absolute;
+    background: #850913;
+    bottom: 16px;
+    left: 0px;
+    transition: all .5s linear;
+    z-index: -1;
+}
+
+/* 首页轮播 *************************************/
+.carousel {
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    /*border: 10px solid #000;*/
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel_img {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    transition: all 2s;
+
+}
+
+.carousel_img>img {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 1s;
+
+}
+
+.carousel_img>img:nth-of-type(4) {
+    position: static;
+}
+
+.carousel>button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+}
+
+.carousel>button:nth-of-type(1) {
+    left: 20px;
+}
+
+.carousel>button:nth-of-type(2) {
+    right: 20px;
+}
+
+.carousel>button:hover {
+    background: rgba(0, 0, 0, .7);
+}
+
+.carousel>button:active {
+    background: rgba(0, 0, 0, .9);
+}
+
+.carousel>ul {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 58px;
+    text-align: center;
+    margin-left: -29px;
+}
+
+.carousel li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel li.active {
+    background: palegreen;
+}
+
+img.active {
+    opacity: 1;
+}
+
+/* 公司简介 *************************************/
+#gsjj {
+    width: 1200px;
+    height: 707px;
+    position: relative;
+}
+
+#gsjj .bjchuang {
+    width: 1124px;
+    height: 465px;
+    border: 1px solid #850913;
+    position: absolute;
+    top: 144px;
+    z-index: -1;
+}
+
+#gsjj .bj_logo {
+    width: 216px;
+    position: absolute;
+    top: 110px;
+    right: 180px;
+}
+
+#gsjj .bj_logo img {
+    width: 216px;
+}
+
+#gsjj .gs_img {
+    width: 563px;
+    height: 471px;
+    position: absolute;
+    top: 106px;
+    left: 40px;
+}
+
+#gsjj .gs_content {
+    width: 680px;
+    height: 420px;
+    background: #999999;
+    position: absolute;
+    bottom: 76px;
+    right: 0px;
+    z-index: -1;
+}
+
+#gsjj .gs_content .ga_text_header {
+    width: 565px;
+    height: 42px;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+    top: 22px;
+    right: -115px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#gsjj .gs_content .ga_text_header p {
+    font-size: 18px;
+    line-height: 42px;
+    color: #ffffff;
+}
+
+#gsjj .gs_content .ga_text_header p:last-of-type {
+    margin-right: 28px;
+}
+
+#gsjj .gs_content .ga_text_header img {
+    width: 5px;
+    height: 7px;
+    position: absolute;
+}
+
+#gsjj .gs_content .ga_text_header img:nth-of-type(1) {
+    top: 19px;
+    right: 15px;
+}
+
+#gsjj .gs_content .ga_text_header img:nth-of-type(2) {
+    top: 39px;
+}
+
+#gsjj .gs_content .ga_text_center {
+    width: 565px;
+    position: relative;
+    top: 40px;
+    right: -100px;
+}
+
+#gsjj .gs_content .ga_text_center p {
+    line-height: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 18px;
+    text-align: justify;
+}
+
+/* 拍摄地 **************************************/
+#psd {
+    height: 830px;
+    background: #fdf9f8;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+#psd .psd_header {
+    width: 1200px;
+    height: 39px;
+    margin-top: 65px;
+    position: relative;
+}
+
+#psd .psd_header h2 {
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+}
+
+#psd .psd_header .psd_tiao {
+    width: 120px;
+    height: 1px;
+    background: #850913;
+    position: absolute;
+    left: 544px;
+}
+
+#psd .psd_center {
+    width: 1200px;
+    height: 520px;
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+#psd .psd_center .di_01 {
+    width: 262px;
+    height: 520px;
+}
+
+#psd .psd_fooler {
+    width: 151px;
+    height: 38px;
+    background: #a20a09;
+    line-height: 38px;
+    text-align: center;
+    font-size: 12px;
+    color: #fcfcfa;
+    position: absolute;
+    bottom: -90px;
+    left: 525px;
+    cursor: pointer;
+}
+
+#psd .psd_center .di_01 h2 {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+#psd .psd_center .di_01 p {
+    line-height: 30px;
+    font-size: 14px;
+    color: #666664;
+    text-align: center;
+}
+
+#psd .psd_center .di_01 img {
+    width: 262px;
+    height: 416px;
+}
+
+#psd .psd_center .s {
+    height: 103px;
+}
+
+
+/* 真实客照 **************************************/
+#zskz {
+    height: 696px;
+    width: 1200px;
+}
+
+#zskz .zskz_header {
+    width: 1200px;
+    height: 39px;
+    margin-top: 65px;
+    position: relative;
+}
+
+#zskz .zskz_header h2 {
+    width: 100%;
+    height: 39px;
+    line-height: 39px;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+}
+
+#zskz .zskz_header .zskz_tiao {
+    width: 120px;
+    height: 1px;
+    background: #850913;
+    position: absolute;
+    left: 544px;
+}
+
+#zskz .zskz_center {
+    width: 1189px;
+    height: 375px;
+    background: #a20a09;
+    margin-top: 40px;
+    position: relative;
+}
+
+#zskz .zskz_center .zskz_img {
+    position: absolute;
+    top: 28px;
+    left: 25px;
+}
+
+#zskz .zskz_center .zskz_img img {
+    width: 429px;
+    height: 397px;
+}
+
+#zskz .zskz_center .zskz_etxt {
+    width: 660px;
+    height: 100%;
+    position: absolute;
+    right: 36px;
+}
+
+#zskz .zskz_center .zskz_etxt .zskz_h {
+    height: 39px;
+    width: 100%;
+}
+
+#zskz .zskz_center .zskz_etxt .zskz_h h2 {
+    line-height: 38px;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 34px;
+}
+
+#zskz .zskz_center .zskz_etxt .zskz_h div {
+    width: 100%;
+    height: 1px;
+    background: #ffffff;
+}
+
+#zskz .zskz_center .zskz_etxt p {
+    width: 100%;
+    line-height: 22px;
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 34px;
+}
+
+#zskz .zskz_center .zskz_etxt div:nth-of-type(2) {
+    width: 81px;
+    height: 22px;
+    background: #ebebeb;
+    color: #a20a09;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 16px;
+    cursor: pointer;
+}
+
+
+/* 选择摄影——条 **************************************/
+#xztiao {
+    height: 110px;
+    background: #e4e4dc;
+    position: relative;
+}
+
+#xztiao div:nth-of-type(1) {
+    width: 100%;
+    line-height: 110px;
+    font-size: 22px;
+    text-align: center;
+    color: #353334;
+}
+
+#xztiao div:nth-of-type(2) {
+    width: 120px;
+    height: 1px;
+    background: #850913;
+    position: absolute;
+    bottom: 26px;
+    left: 900px;
+}
+
+/* 摄影师 **************************************/
+#sys {
+    height: 650px;
+    position: relative;
+}
+
+#sys .sys_man {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sys .sys_man .man_01 {
+    width: 290px;
+    height: 526px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#sys .sys_man .man_01:hover {
+    background: #a20a09;
+}
+
+#sys .sys_man .man_01:hover h2 {
+    color: #fbfffc;
+}
+
+#sys .sys_man .man_01:hover h3{
+    color: #fbfffc;
+}
+
+#sys .sys_man .man_01:hover p {
+    color: #fbfffc;
+}
+
+#sys .sys_man .man_01 img {
+    width: 290px;
+}
+
+#sys .sys_man .man_01 h2 {
+    height: 18px;
+    font-size: 18px;
+    margin-top: 15px;
+    color: #323232;
+}
+
+#sys .sys_man .man_01 h3 {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+
+#sys .sys_man .man_01 p {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #999999;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+#sys .sys_more{
+    width: 119px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    text-align: center;
+    color:#feffff ; 
+    background: #a20a09;
+    position: absolute;
+    bottom: 22px;
+    left: 540px;
+    cursor: pointer;
+}
+
+/* footer **************************************/
+#footer{
+    height: 92px;
+    width: 100%;
+    text-align: center;
+    line-height: 92px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #666666;
+}
